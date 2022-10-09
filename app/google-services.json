@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908223268630",
+    "project_id": "biznes-plan-uzb",
+    "storage_bucket": "biznes-plan-uzb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908223268630:android:261e459a66436210b33237",
+        "android_client_info": {
+          "package_name": "com.zelix.biznesplanuzb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908223268630-rp8j7fl1q4c7tsssf1pen0kb5c10s643.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-uwBehE6I6oOcUcgiyUcfK4FMl33p_HY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908223268630-rp8j7fl1q4c7tsssf1pen0kb5c10s643.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    app:cardCornerRadius="@dimen/_13sdp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="Ushbu dastur yordamida siz biznes g'oyangizni kiritib, o'zingizga mablag' ajratib olsangiz bo'ladi. Qanday qilib deysizmi? Bu juda oson.\n\n1 - Registrantiyadan o'ting\n2 - To'lov qilingn\n3 - Biznes turini tanlang\n4 - Biznes g'oyani kiriting\n\nva javobni kuting. "
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="Biznes Plan Uzb bilan bog'lanish: +998930656900"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_18sdp" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

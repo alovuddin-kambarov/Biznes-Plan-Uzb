@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Biznes Plan Uzb</string>
+    <string name="bines">Biznes g’oyangizni kiritish uchun to\'lov qilishingiz kerak</string>
+    <string name="yangi_biznes_g_oya_yuborish">Yangi biznes g\'oya yuborish</string>
+    <string name="lasd">Biznes go\'ya muvaffaqiyatli yuborildi! Sizga javobni 3,4 kun ichida sms tarzida yuboramiz. Agar biznes g\'oyangsiz tasdiqlanmasa, yana bir bor kirtishingiz mumkin. Eslatma: yangi biznes g\'oya uchun yana to\'lov qilish kerak\n\nOperator:+998930656900</string>
+</resources>
