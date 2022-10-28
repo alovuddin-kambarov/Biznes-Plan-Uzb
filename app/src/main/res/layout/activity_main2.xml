@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zelix.biznesplanuzb.MainActivity2">
+    tools:context="com.zelix.biznesplanuzb.activities.MainActivity2">
 
     <View
         android:layout_width="match_parent"
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/_20sdp"
-        android:layout_marginBottom="@dimen/_70sdp"
+        android:layout_marginBottom="@dimen/_90sdp"
         android:background="@drawable/ic_line2"
         android:gravity="center"
         android:text="15 ming so'm"
@@ -47,9 +47,8 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:src="@drawable/ic_payme"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView2" />
 
@@ -58,9 +57,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/_20sdp"
-        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintTop_toTopOf="@id/imageView"
+        app:layout_goneMarginLeft="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="@id/imageView"
         android:src="@drawable/ic_click"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/check"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:backgroundTint="@color/blue"
+        android:text="Tekshirish"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

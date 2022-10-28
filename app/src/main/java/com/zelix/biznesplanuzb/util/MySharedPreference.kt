@@ -67,5 +67,19 @@ object MySharedPreference {
                 this.putBoolean("isSigned", value)
             }
         }
+    var isSuccessPaid: Boolean?
+        get() = sharedPreferences.getBoolean("isSuccessPaid", false)
+        set(value) = sharedPreferences.edit {
+            if (value != null) {
+                this.putBoolean("isSuccessPaid", value)
+            }
+        }
+    var userId: Int?
+        get() = sharedPreferences.getInt("userId", 0)
+        set(value) = sharedPreferences.edit {
+            if (value != null) {
+                this.putInt("userId", value)
+            }
+        }
 
 }

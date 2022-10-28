@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_last_back"
-    tools:context="com.zelix.biznesplanuzb.SuccessActivity">
+    tools:context="com.zelix.biznesplanuzb.activities.SuccessActivity">
 
 
     <TextView
